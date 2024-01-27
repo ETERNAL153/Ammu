@@ -1,0 +1,32 @@
+ramsaikumarch@rams-MacBook-Air src % javac wheel/WheeledTransportation.java
+ramsaikumarch@rams-MacBook-Air src % javac trainandtram/Train.java
+ramsaikumarch@rams-MacBook-Air src % javac metro/Metro.java
+ramsaikumarch@rams-MacBook-Air src % javac monowheel/Monowheel.java 
+ramsaikumarch@rams-MacBook-Air src % javac trainandtram/Tram.java  
+ramsaikumarch@rams-MacBook-Air src % javac trainandtram/Tram.java  
+ramsaikumarch@rams-MacBook-Air src % javac ferry/Ferry.java
+ramsaikumarch@rams-MacBook-Air src % javac aircraft/Aircraft.java
+ramsaikumarch@rams-MacBook-Air src % javac aircraft/WorldWarIIAirplane.java 
+ramsaikumarch@rams-MacBook-Air src % javac main/Main.java
+ramsaikumarch@rams-MacBook-Air src % java main/Main.java 
+Train 1 Data:
+Train [numOfVehicles=8, nameOfTheStartingStation='Station X', nameOfTheDestinationStation='Station Y', serialNumber=10000]
+Metro 1 Data:
+Metro [totalNumOfStops=15, serialNumber=25000, Train [numOfVehicles=10, nameOfTheStartingStation='Station A', nameOfTheDestinationStation='Station B', serialNumber=10003]]
+Tram 1 Data:
+Tram [yearOfCreation=1995, serialNumber=30000, Metro [totalNumOfStops=8, serialNumber=25003, Train [numOfVehicles=6, nameOfTheStartingStation='Station M', nameOfTheDestinationStation='Station N', serialNumber=10006]]]
+Monowheel 1 Data:
+Monowheel [maxWeight=150.0, serialNumber=55000, WheeledTransportation [numberOfWheels=1, maxSpeed=20.0, serialNumber=9]]
+Ferry 1 Data:
+Ferry [maxSpeed=25.0, maxLoad=200.0, serialNumber=70000]
+Aircraft 1 Data:
+Aircraft [price=100.0, maxElevation=10000.0, serialNumber=75000]
+WW2 Airplane 1 Data:
+WorldWarIIAirplane [twinEngine=true, serialNumber=80000, price=500.0, maxElevation=50000.0]
+Train 1 and Metro 1 Equality: false
+Aircraft 1 and Ferry 1 Equality: false
+Next Serial Number for Train: 10010
+Next Serial Number for Aircraft: 75003
+Train 1 equals Train 2: false
+ramsaikumarch@rams-MacBook-Air src % 
+
