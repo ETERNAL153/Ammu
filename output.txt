@@ -1,1 +1,5 @@
-Number of lines in file: 3
+make steel model bmw year 1974 fuel 2000.0
+make plasterOfParis model benz year 1876 fuel 200.0
+make clay model suzuki year 1987 fuel 600.0
+make iron model ev year 2012 fuel 1000.0
+make plastic model electric year 2030 fuel 3455.0
